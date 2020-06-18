@@ -40,6 +40,7 @@ import { SellerTaxCalculationComponent } from './seller-tax-calculation/seller-t
       { path: 'products', component: BuyerLoginComponent },
       { path: 'cart', component: BuyerShoppingCartComponent },
       { path: 'products/:productId', component: BuyerItemSearchResultComponent },
+      { path: 'buyerlogin', component: BuyerLoginComponent },
   ])
   ],
   providers: [],

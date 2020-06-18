@@ -9,7 +9,7 @@ import { CartService } from '../services/cart.service';
   styleUrls: ['./buyer-item-search-result.component.css']
 })
 export class BuyerItemSearchResultComponent implements OnInit {
-
+  product;
   constructor(
     private route: ActivatedRoute,
     private cartService: CartService
